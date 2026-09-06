@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bad-app
+spec:
+  template:
+    spec:
+      containers:
+        - name: app
+          image: vibeaudit-demo/app:latest
+          securityContext:
+            runAsUser: 0
+            privileged: true

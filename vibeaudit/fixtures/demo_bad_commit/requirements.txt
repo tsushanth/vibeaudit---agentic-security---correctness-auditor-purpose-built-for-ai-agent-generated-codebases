@@ -1,0 +1,2 @@
+requests==2.31.0
+vibeaudit-fake-pypkg-3f9a21c8==1.0.0

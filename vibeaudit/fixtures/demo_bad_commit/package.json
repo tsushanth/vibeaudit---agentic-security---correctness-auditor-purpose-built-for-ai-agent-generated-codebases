@@ -1,0 +1,8 @@
+{
+  "name": "demo-bad-commit",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "vibeaudit-fake-pkg-3f9a21c8": "^1.0.0"
+  }
+}

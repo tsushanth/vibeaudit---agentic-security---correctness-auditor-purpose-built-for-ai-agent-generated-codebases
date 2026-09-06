@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: good-app
+spec:
+  template:
+    spec:
+      containers:
+        - name: app
+          image: vibeaudit-demo/app:latest
+          securityContext:
+            runAsUser: 1000
+            runAsNonRoot: true
+            privileged: false
